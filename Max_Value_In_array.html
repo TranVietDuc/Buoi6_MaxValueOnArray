@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+
+    var array =[1, 2, 5, -20, 8 ,5 ,10, 8];
+    var max = array[0];
+    var maxi;
+    for (let i = 0; i<array.length; i++) {
+        if( array[i]< array[i+1])
+        {
+         max = array[i+1];
+         maxi = i+1;
+        }
+    }
+   alert("Max value of this array is " + max + " In index " + maxi);
+</script>
+</body>
+</html>
